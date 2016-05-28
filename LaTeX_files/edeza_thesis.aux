@@ -1,0 +1,249 @@
+\relax 
+\citation{belady66_opt}
+\citation{boyar07}
+\citation{brodal11}
+\citation{sea12_paper}
+\citation{boyar07}
+\citation{moruz_soda12}
+\citation{memory_hierarchy}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Memory hierarchy and paging}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces a) The RAM has space for 4 pages, and the hard disk consists of 99 pages. Page\nobreakspace  {}2 is requested and loaded from the hard disk to the RAM. b) Page\nobreakspace  {}2 is now in RAM where it can be accessed by the CPU.}}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces a) We request page\nobreakspace  {}98 and try to load it from the hard disk to RAM. However, the RAM is full. b) We pick an arbitrary page and evict it, e.g. page\nobreakspace  {}7. c) Now, page\nobreakspace  {}98 can be loaded from the hard disk to RAM.}}{2}}
+\citation{albers99_brics}
+\citation{johncctang}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Paging algorithms}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.1}Longest Forward Distance (LFD)}{3}}
+\newlabel{sec:lfd}{{1.2.1}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Example for the algorithm LFD processing a request sequence $\sigma $. The cache size is $k=3$. Numbers enclosed in a square indicate a cache miss. In total there are 8 cache misses.}}{3}}
+\newlabel{fig:LFD_example}{{3}{3}}
+\citation{belady66_opt}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The cache content is \{1,5,3\}. Out of these three pages the next request for page 5 lies furthest in the future. Hence, LFD evicts page 5.}}{4}}
+\newlabel{fig:LFD_example_c}{{4}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The cache content is \{1,2,3\}. Out of these three pages the next request for page 2 lies furthest in the future. Hence, LFD evicts page 2.}}{4}}
+\newlabel{fig:LFD_example_d}{{5}{4}}
+\citation{albers03_survey}
+\citation{albers99_brics}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {1.2.2}Least Recently Used (LRU)}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Example for the algorithm LRU processing a request sequence $\sigma $. The cache size is $k=3$. Numbers enclosed in a square indicate a cache miss.}}{5}}
+\newlabel{fig:LRU_example}{{6}{5}}
+\citation{sleator85}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The cache content is \{1,5,3\}. Out of these three pages 1 has not been requested for the longest period of time. Hence, LRU evicts page 1. Notice that the future requests are unknown to LRU.}}{6}}
+\newlabel{fig:LRU_example_c}{{7}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The cache content is \{2,5,3\}. Out of these three pages 3 has not been requested for the longest period of time. Hence, LRU evicts page 3. Notice that the future requests are unknown to LRU.}}{6}}
+\newlabel{fig:LRU_example_d}{{8}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}Competitive ratio}{6}}
+\citation{sleator85}
+\citation{chrobak99}
+\citation{moruz_soda12}
+\citation{koutsoupias00}
+\citation{sea12_paper}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces In experiments the empirical ratio $A(\sigma )/OPT(\sigma )$ is plotted against different cache sizes $k$.}}{7}}
+\newlabel{fig:empirical_ratio}{{9}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Optimal offline paging algorithm}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Layer partition}{8}}
+\newlabel{sec:LayerPartition}{{2.1}{8}}
+\citation{moruz_soda12}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Illustration of example 4. The layer partition processes a request sequence $\sigma $. The second line shows the initial partition after the first $k=3$ pairwise distinct pages in $\sigma $. The last column describes OPT's behaviour according to property (Pr1). There are in total 6 cache misses.}}{11}}
+\newlabel{tab:example4}{{1}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The algorithm LFD processing the request sequence $\sigma $ from example\nobreakspace  {}4. Squares indicate a cache miss. There are in total 6 page faults.}}{11}}
+\newlabel{fig:LFD_compare_layerPartition2}{{10}{11}}
+\citation{galler64}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Union-Find data structure}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Example for the Galler-Fischer tree data structure. The trees represent the sets $P_1=\{1,2\}$, $P_2=\{3,4,5,6,7\}$ and $P_3=\{8\}$.}}{12}}
+\newlabel{fig:gallerFischer_example}{{11}{12}}
+\citation{tarjan83}
+\citation{tarjan_leeuwen84}
+\citation{tarjan_golumbic}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Example for a union operation in the Galler-Fischer tree data structure. Union(10,3) is performed by first finding the root of 10 and 3 respectively via find(10) and find(3). The root of 10 is then linked to the root of 3.}}{13}}
+\newlabel{fig:gallerFischer_example1}{{12}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Two trees are unified via union(2,4). In a) the union is performed without union by rank which generates a tree of height 2. In contrast, b) is performed with union by rank, i.e. the tree with smaller rank is linked to the tree with greater rank. This yields a tree of height 1.}}{13}}
+\newlabel{fig:gallerFischer_unionByRank}{{13}{13}}
+\citation{tarjan_golumbic}
+\citation{tarjan83}
+\citation{tarjan75}
+\citation{inverse_ackermannFunction}
+\citation{jeffe}
+\citation{gallerFischer_javaApplet}
+\citation{brPreiss_onlineBook}
+\citation{andrei_idea}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces find(a) follows the parent pointers until node $r$ passing the nodes $b$ and $c$. In a second traversal $a$, $b$ and $c$ are directly linked to $r$. Subsequent find operations for $a$, $b$, $c$ and their children (nodes in subtrees) run faster.}}{14}}
+\newlabel{fig:gallerFischer_pathCompression}{{14}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Linked trees implementation of the layer partition (LTrees)}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The data structure for the layer partition $(\mathcal  {L}_0 | \mathcal  {L}_1 | ... | \mathcal  {L}_k)$. Each layer is represented by a tree. $\mathcal  {L}_0$-Ptr and $\mathcal  {L}_k$-Ptr are special pointers used to decide whether a page is in $\mathcal  {L}_0$ or $\mathcal  {L}_k$. The trees with root nodes $a$ and $b$ represent layers $\mathcal  {L}_0$ and $\mathcal  {L}_k$ respectively. Filled nodes are marked as deleted. There are at most $k+1$ trees with $k$ being the cache size. The total number of nodes is restricted to $2m$, where $m$ is the page-set size.}}{15}}
+\newlabel{fig:layerPartitionTrees2}{{15}{15}}
+\citation{LTrees_find_index_i}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces The layer partition is represented by the linked trees. The count variable describes the number of empty sets adjacent to the left. The nodes with empty sets do not exist and are only drawn for illustration purposes.}}{16}}
+\newlabel{fig:LTrees_countVariable}{{16}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Implementation of case 1 of the update rules for the layer partition. a) shows the data structure before and b) after the request to page $p \in \mathcal  {L}_0$. The filled node represents a node that is marked as deleted. Node $y$ is linked to node $x$. (or vice versa $x$ is linked to $y$ depending on the ranks).}}{17}}
+\newlabel{fig:LTrees_case1}{{17}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Implementation of case 3 of the update rules for the layer partition. a) shows the data structure before and b) after the request to page $p \in \mathcal  {L}_i$ with $0<i<k$. The filled node represents a node that is marked as deleted. An empty set is inserted by increasing the count variable of node $r$. Node $y$ is linked to node $x$ (or vice versa $x$ is linked to $y$ depending on the ranks).}}{17}}
+\newlabel{fig:LTrees_case3}{{18}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}Cleanup procedure for LTrees}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Cleanup procedure: After step 1 all trees have height of at most 1. Filled nodes represent nodes that are marked as deleted. In step 2 and 3 marked nodes are removed. Node A is removed. Node B replaces node C.}}{18}}
+\newlabel{fig:LTrees_cleanup}{{19}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}Runtime analysis for LTrees}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces There are two phases for LTrees. In phase 1 we start with $m$ nodes and request pages until we have $2m$ nodes. Then in phase 2 the cleanup procedure takes place removing $m$ marked nodes.}}{19}}
+\newlabel{fig:LTrees_analysis}{{20}{19}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces The transformation starting from situation A and ending in situation B. Situation B corresponds to LTrees right after a cleanup procedure, see also figure\nobreakspace  {}19\hbox {}.}}{20}}
+\newlabel{fig:LTrees_transformation}{{21}{20}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}Space requirements for LTrees}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Java implementation of LTrees}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces Implementation of LTrees in Java using arrays, two variables and a queue.}}{23}}
+\newlabel{fig:java_implementation1}{{22}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Implementation of LTrees in Java. The arrays, pointer variables and queue are updated upon request to page 3.}}{24}}
+\newlabel{fig:java_implementation2}{{23}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces Implementation of LTrees in Java. The arrays, pointer variables and queue are updated upon request to page 5. Note that the queue becomes empty.}}{25}}
+\newlabel{fig:java_implementation3}{{24}{25}}
+\citation{brPreiss_onlineBook}
+\citation{brPreiss_onlineBook}
+\citation{sea12_paper}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Step\nobreakspace  {}1 of the cleanup procedure. A find operation with path compression is applied to all $2m$ nodes. This creates trees with height of at most 1. The parent and rank array are updated. Note that the rank is only updated during the cleanup procedure, but usually it is not changed as mentioned in\nobreakspace  {}\cite  {brPreiss_onlineBook}.}}{26}}
+\newlabel{fig:java_implementation4}{{25}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Step\nobreakspace  {}2, case 2a) of the cleanup procedure. Marked nodes (non-root nodes) are removed and put into the queue.}}{27}}
+\newlabel{fig:java_implementation5}{{26}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Step\nobreakspace  {}2, case 2b) of the cleanup procedure. Marked root nodes are replaced by their children.}}{28}}
+\newlabel{fig:java_implementation6}{{27}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Timestamp implementation of the layer partition}{29}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces The pages in $\sigma $ are requested at time $t$.}}{29}}
+\newlabel{tab:timestamps}{{2}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces The layer partition after the first $k=3$ pairwise distinct requested pages. The third row shows the time of the layer creation. }}{29}}
+\newlabel{fig:TStamp_layerPartition}{{28}{29}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces TStamp encodes the layer partition in an array called birth. Its entries are tuples $(t,v)$.}}{30}}
+\newlabel{fig:TStamp_birthArray}{{29}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces The array lastRequest after the first 3 requests. For each page the time of its last request is stored. The value -1 indicates that a page has not been requested yet.}}{30}}
+\newlabel{fig:TStamp_lastRequest}{{30}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {31}{\ignorespaces The layer partition after request to page\nobreakspace  {}3 at time $t=4$.}}{30}}
+\newlabel{fig:TStamp_layerPartition_t4}{{31}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {32}{\ignorespaces TStamp uses the two arrays birth and lastRequest. birth is updated because a new layer is created at time $t=4$.}}{31}}
+\newlabel{fig:TStamp_birthArray_t4}{{32}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {33}{\ignorespaces The layer partition, birth array and lastRequest array upon request to page\nobreakspace  {}2 at time $t=5$. We recognize that the birth array encodes the structure of the layer partition.}}{31}}
+\newlabel{fig:TStamp_request_t5}{{33}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {34}{\ignorespaces The layer partition and TStamp at time $t=6$.}}{32}}
+\newlabel{fig:TStamp_request_t6}{{34}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {35}{\ignorespaces The layer partition and TStamp at time $t=7$.}}{32}}
+\newlabel{fig:TStamp_request_t7}{{35}{32}}
+\@writefile{lof}{\contentsline {figure}{\numberline {36}{\ignorespaces The birth array is extended by a prefix sum of $v$. The prefix sum corresponds to the index $i$ of a layer $\mathcal  {L}_i$.}}{33}}
+\newlabel{fig:TStamp_prefixSum}{{36}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {37}{\ignorespaces TStamp implementation of the layer partition in example 2.}}{34}}
+\newlabel{fig:TStamp_prefixSum2}{{37}{34}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.1}Runtime analysis for TStamp}{35}}
+\newlabel{sec:runtimeAnalysisTStamp}{{2.5.1}{35}}
+\citation{sea12_paper}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.5.2}Space requirements for TStamp}{36}}
+\@writefile{lof}{\contentsline {figure}{\numberline {38}{\ignorespaces Page\nobreakspace  {}$3 \in \mathcal  {L}_1$ is requested. TStamp merges $\mathcal  {L}_1 \delimiter "026E30F \{3\}$ with $\mathcal  {L}_0$ by deleting the first column in the birth array and shifting all the following columns one position to the left.}}{37}}
+\newlabel{fig:TStamp_deleteLayer}{{38}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.6}Comparison of LTrees and TStamp}{38}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of the data structures LTrees and TStamp. $k$ is the cache size and $m$ the page-set size.}}{38}}
+\newlabel{tab:comparison}{{3}{38}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.6.1}Borrowing a technique from TStamp}{38}}
+\citation{arc_paper}
+\citation{queue_stackoverflow}
+\citation{queue_primitive}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Experiments}{39}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Setup}{39}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Traces with their features.}}{39}}
+\newlabel{tab:traces}{{4}{39}}
+\citation{arc_paper}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Results}{40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {39}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{41}}
+\newlabel{fig:samsung_OLTP}{{39}{41}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Results for the trace OLTP using the Samsung notebook PC. The trace was not processed on the Lenovo desktop PC because the runtimes were too small and thus inaccurate.}}{41}}
+\newlabel{tab:samsung_OLTP}{{5}{41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {40}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{42}}
+\newlabel{fig:samsung_S1}{{40}{42}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Results for the trace S1 using the Samsung notebook PC.}}{42}}
+\newlabel{tab:samsung_S1}{{6}{42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {41}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{43}}
+\newlabel{fig:lenovo_S1}{{41}{43}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Results for the trace S1 using the Lenovo desktop PC.}}{43}}
+\newlabel{tab:lenovo_S1}{{7}{43}}
+\@writefile{lof}{\contentsline {figure}{\numberline {42}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{44}}
+\newlabel{fig:samsung_P6}{{42}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Results for the trace P6 using the Samsung notebook PC.}}{44}}
+\newlabel{tab:samsung_P6}{{8}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {43}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{45}}
+\newlabel{fig:lenovo_P6}{{43}{45}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Results for the trace P6 using the Lenovo desktop PC.}}{45}}
+\newlabel{tab:lenovo_P6}{{9}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {44}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{46}}
+\newlabel{fig:samsung_P1}{{44}{46}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Results for the trace P1 using the Samsung notebook PC.}}{46}}
+\newlabel{tab:samsung_P1}{{10}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {45}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{47}}
+\newlabel{fig:lenovo_P1}{{45}{47}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Results for the trace P1 using the Lenovo desktop PC.}}{47}}
+\newlabel{tab:lenovo_P1}{{11}{47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {46}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{48}}
+\newlabel{fig:samsung_SPC1}{{46}{48}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Results for the trace SPC1 like using the Samsung notebook PC.}}{48}}
+\newlabel{tab:samsung_SPC1}{{12}{48}}
+\@writefile{lof}{\contentsline {figure}{\numberline {47}{\ignorespaces The ratio runtime(TStamp)/runtime(LTrees) is plotted against the cache size. The red line corresponds to points of equal runtimes.}}{49}}
+\newlabel{fig:lenovo_SPC1}{{47}{49}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Results for the trace SPC1 like using the Lenovo desktop PC.}}{49}}
+\newlabel{tab:lenovo_SPC1}{{13}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {48}{\ignorespaces Cache misses caused by OPT when processing trace P1 for different cache sizes.}}{50}}
+\newlabel{fig:cacheMisses_P1}{{48}{50}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Number of cache misses caused by OPT when processing a trace at different cache sizes. The values decrease with increasing cache size.}}{50}}
+\newlabel{tab:cacheMissesTraces}{{14}{50}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Discussion}{51}}
+\citation{objectsContiguous_java}
+\citation{objectsContiguous_cpp}
+\citation{galler64}
+\citation{tarjan_leeuwen84}
+\citation{patwary10}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion and future work}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Conclusion}{52}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Future work}{52}}
+\citation{moruz_soda12}
+\citation{boyar07}
+\citation{moruz_soda12}
+\citation{alstrup05}
+\citation{ben-amram11}
+\citation{ben-amram11_corrigendum}
+\citation{sea12_paper}
+\citation{moruz_soda12}
+\@writefile{toc}{\contentsline {section}{Appendix}{54}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Interpretation of the layer partition}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {49}{\ignorespaces Comparison of the layer partition with OPT's cache.}}{54}}
+\newlabel{fig:layerPartition_Interpretation1a}{{49}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {50}{\ignorespaces Comparison of the layer partition with OPT's cache.}}{55}}
+\newlabel{fig:layerPartition_Interpretation1b}{{50}{55}}
+\bibcite{belady66_opt}{1}
+\bibcite{boyar07}{2}
+\bibcite{brodal11}{3}
+\bibcite{memory_hierarchy}{4}
+\bibcite{albers99_brics}{5}
+\bibcite{johncctang}{6}
+\bibcite{moruz_soda12}{7}
+\bibcite{albers03_survey}{8}
+\bibcite{sleator85}{9}
+\bibcite{chrobak99}{10}
+\bibcite{koutsoupias00}{11}
+\bibcite{sea12_paper}{12}
+\bibcite{galler64}{13}
+\bibcite{tarjan75}{14}
+\bibcite{tarjan_golumbic}{15}
+\bibcite{tarjan83}{16}
+\bibcite{inverse_ackermannFunction}{17}
+\citation{tarjan83}
+\citation{tarjan75}
+\citation{jeffe}
+\citation{cormen_CLRS}
+\citation{tarjan_golumbic}
+\bibcite{jeffe}{18}
+\bibcite{cormen_CLRS}{19}
+\bibcite{gallerFischer_javaApplet}{20}
+\bibcite{brPreiss_onlineBook}{21}
+\bibcite{LTrees_find_index_i}{22}
+\bibcite{andrei_idea}{23}
+\bibcite{arc_paper}{24}
+\bibcite{queue_stackoverflow}{25}
+\bibcite{queue_primitive}{26}
+\bibcite{objectsContiguous_java}{27}
+\bibcite{objectsContiguous_cpp}{28}
+\bibcite{tarjan_leeuwen84}{29}
+\bibcite{patwary10}{30}
+\bibcite{alstrup05}{31}
+\bibcite{ben-amram11}{32}
+\bibcite{ben-amram11_corrigendum}{33}

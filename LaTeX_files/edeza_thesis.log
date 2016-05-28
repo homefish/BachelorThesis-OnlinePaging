@@ -1,0 +1,965 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.10.1)  14 NOV 2012 14:44
+entering extended mode
+**edeza_thesis.tex
+(D:\Studium\BachelorThesisStuff\LaTeX_BachelorThesis\myLatex\edeza_thesis.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ansinew.def"
+File: ansinew.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip11
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks18
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(C:\Users\Ed\AppData\Roaming\MiKTeX\2.9\tex\latex\morefloats\morefloats.sty
+Package: morefloats 2012/01/28 v1.0f Raise limit of unprocessed floats (HMM; DH
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package morefloats Info: Maximum number of possible floats asked for: 36.
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+(morefloats)              on input line 171.
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@AB=\insert224
+\bx@AC=\insert223
+\bx@AD=\insert222
+\bx@AE=\insert221
+\bx@AF=\insert220
+\bx@AG=\insert219
+\bx@AH=\insert218
+\bx@AI=\insert217
+\bx@AJ=\insert216
+)
+(D:\Studium\BachelorThesisStuff\LaTeX_BachelorThesis\myLatex\edeza_thesis.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(C:\Users\Ed\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count100
+\scratchdimen=\dimen114
+\scratchbox=\box28
+\nofMPsegments=\count101
+\nofMParguments=\count102
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count103
+\MPscratchDim=\dimen115
+\MPnumerator=\count104
+\makeMPintoPDFobject=\count105
+\everyMPtoPDFconversion=\toks23
+) <./figures/Goethe-logo.pdf, id=1, 614.295pt x 399.4925pt>
+File: ./figures/Goethe-logo.pdf Graphic file (type pdf)
+
+<use ./figures/Goethe-logo.pdf>
+Package pdftex.def Info: ./figures/Goethe-logo.pdf used on input line 47.
+(pdftex.def)             Requested size: 141.28487pt x 91.88133pt.
+ [1
+
+{C:/Users/Ed/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/Studium/Bac
+helorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/Goethe-logo.pdf>] [2]
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+
+ []
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 82--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--95
+
+ []
+
+[2
+
+] [1]
+(D:\Studium\BachelorThesisStuff\LaTeX_BachelorThesis\myLatex\edeza_thesis.toc)
+\tf@toc=\write3
+
+[1
+
+]
+<./figures/twoLevelMemory_CPU_RAM_HDD.pdf, id=41, 281.72752pt x 110.79451pt>
+File: ./figures/twoLevelMemory_CPU_RAM_HDD.pdf Graphic file (type pdf)
+
+<use ./figures/twoLevelMemory_CPU_RAM_HDD.pdf>
+Package pdftex.def Info: ./figures/twoLevelMemory_CPU_RAM_HDD.pdf used on input
+ line 166.
+(pdftex.def)             Requested size: 197.2079pt x 77.55562pt.
+
+<./figures/RAM_hdd_page_part1.pdf, id=42, 278.67896pt x 119.09862pt>
+File: ./figures/RAM_hdd_page_part1.pdf Graphic file (type pdf)
+
+<use ./figures/RAM_hdd_page_part1.pdf>
+Package pdftex.def Info: ./figures/RAM_hdd_page_part1.pdf used on input line 18
+0.
+(pdftex.def)             Requested size: 278.67827pt x 119.09831pt.
+
+<./figures/RAM_hdd_page_part2.pdf, id=43, 315.05316pt x 271.21407pt>
+File: ./figures/RAM_hdd_page_part2.pdf Graphic file (type pdf)
+
+<use ./figures/RAM_hdd_page_part2.pdf>
+Package pdftex.def Info: ./figures/RAM_hdd_page_part2.pdf used on input line 18
+9.
+(pdftex.def)             Requested size: 315.05238pt x 271.2134pt.
+ [1 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/twoLev
+elMemory_CPU_RAM_HDD.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/
+myLatex/figures/RAM_hdd_page_part1.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 198.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
+ [2 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/RAM_hd
+d_page_part2.pdf>]
+Overfull \hbox (4.75713pt too wide) in paragraph at lines 234--238
+\OT1/cmr/m/n/12 Suppose we have a cache-size of $\OML/cmm/m/it/12 k \OT1/cmr/m/
+n/12 = 3$, and the page-set is $\OML/cmm/m/it/12 M \OT1/cmr/m/n/12 = \OMS/cmsy/
+m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ;
+ \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/c
+mr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OMS/cmsy/m/n/12 g$\OT1/cmr/m/n/
+12 .
+ []
+
+<./figures/LFD_example.pdf, id=101, 342.13199pt x 108.72092pt>
+File: ./figures/LFD_example.pdf Graphic file (type pdf)
+
+<use ./figures/LFD_example.pdf>
+Package pdftex.def Info: ./figures/LFD_example.pdf used on input line 242.
+(pdftex.def)             Requested size: 342.13115pt x 108.72064pt.
+ [3 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LFD_ex
+ample.pdf>]
+<./figures/LFD_example_c.pdf, id=186, 295.42873pt x 116.5878pt>
+File: ./figures/LFD_example_c.pdf Graphic file (type pdf)
+
+<use ./figures/LFD_example_c.pdf>
+Package pdftex.def Info: ./figures/LFD_example_c.pdf used on input line 259.
+(pdftex.def)             Requested size: 295.428pt x 116.5875pt.
+
+<./figures/LFD_example_d.pdf, id=187, 296.67316pt x 116.5878pt>
+File: ./figures/LFD_example_d.pdf Graphic file (type pdf)
+
+<use ./figures/LFD_example_d.pdf>
+Package pdftex.def Info: ./figures/LFD_example_d.pdf used on input line 271.
+(pdftex.def)             Requested size: 296.67242pt x 116.5875pt.
+ [4 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LFD_ex
+ample_c.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figur
+es/LFD_example_d.pdf>]
+<./figures/LRU_example.pdf, id=309, 331.35541pt x 107.70776pt>
+File: ./figures/LRU_example.pdf Graphic file (type pdf)
+
+<use ./figures/LRU_example.pdf>
+Package pdftex.def Info: ./figures/LRU_example.pdf used on input line 303.
+(pdftex.def)             Requested size: 331.35458pt x 107.70749pt.
+
+<./figures/LRU_example_c.pdf, id=310, 303.23169pt x 153.89757pt>
+File: ./figures/LRU_example_c.pdf Graphic file (type pdf)
+
+<use ./figures/LRU_example_c.pdf>
+Package pdftex.def Info: ./figures/LRU_example_c.pdf used on input line 323.
+(pdftex.def)             Requested size: 288.06847pt x 146.20184pt.
+
+<./figures/LRU_example_d.pdf, id=311, 295.42873pt x 133.01958pt>
+File: ./figures/LRU_example_d.pdf Graphic file (type pdf)
+
+<use ./figures/LRU_example_d.pdf>
+Package pdftex.def Info: ./figures/LRU_example_d.pdf used on input line 333.
+(pdftex.def)             Requested size: 280.65569pt x 126.36786pt.
+ [5 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LRU_ex
+ample.pdf>] [6 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/fig
+ures/LRU_example_c.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/my
+Latex/figures/LRU_example_d.pdf>]
+<./figures/empirical_ratio.pdf, id=550, 186.66374pt x 121.4169pt>
+File: ./figures/empirical_ratio.pdf Graphic file (type pdf)
+
+<use ./figures/empirical_ratio.pdf>
+Package pdftex.def Info: ./figures/empirical_ratio.pdf used on input line 381.
+(pdftex.def)             Requested size: 186.66327pt x 121.41658pt.
+ [7 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/empiri
+cal_ratio.pdf>]
+Overfull \hbox (11.59299pt too wide) in paragraph at lines 413--416
+\OT1/cmr/bx/n/12 Example 0\OT1/cmr/m/n/12 : Let $\OML/cmm/m/it/12 M \OT1/cmr/m/
+n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\
+OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm
+/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OMS/cmsy/m/n/1
+2 g$\OT1/cmr/m/n/12 , $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 3$ and $\OML/cmm/m/
+it/12  \OT1/cmr/m/n/12 = (2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT
+1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m
+/n/12 4\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2
+\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4)$.
+ []
+
+
+Overfull \hbox (45.99864pt too wide) in paragraph at lines 431--432
+ [] 
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 468--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 524--528
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 578--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--635
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--635
+
+ []
+
+[10]
+<./figures/LFD_compare_layerPartition2.pdf, id=577, 263.4342pt x 52.1699pt>
+File: ./figures/LFD_compare_layerPartition2.pdf Graphic file (type pdf)
+
+<use ./figures/LFD_compare_layerPartition2.pdf>
+Package pdftex.def Info: ./figures/LFD_compare_layerPartition2.pdf used on inpu
+t line 643.
+(pdftex.def)             Requested size: 263.43355pt x 52.16977pt.
+ [11 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LFD_c
+ompare_layerPartition2.pdf>]
+<./figures/gallerFischer_example.pdf, id=644, 369.53142pt x 148.34105pt>
+File: ./figures/gallerFischer_example.pdf Graphic file (type pdf)
+
+<use ./figures/gallerFischer_example.pdf>
+Package pdftex.def Info: ./figures/gallerFischer_example.pdf used on input line
+ 670.
+(pdftex.def)             Requested size: 184.76524pt x 74.17033pt.
+
+<./figures/gallerFischer_example1.pdf, id=645, 677.84314pt x 277.99863pt>
+File: ./figures/gallerFischer_example1.pdf Graphic file (type pdf)
+
+<use ./figures/gallerFischer_example1.pdf>
+Package pdftex.def Info: ./figures/gallerFischer_example1.pdf used on input lin
+e 690.
+(pdftex.def)             Requested size: 318.58632pt x 130.65936pt.
+ [12 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/galle
+rFischer_example.pdf>]
+<./figures/gallerFischer_unionByRank.pdf, id=658, 715.1024pt x 310.17749pt>
+File: ./figures/gallerFischer_unionByRank.pdf Graphic file (type pdf)
+
+<use ./figures/gallerFischer_unionByRank.pdf>
+Package pdftex.def Info: ./figures/gallerFischer_unionByRank.pdf used on input 
+line 709.
+(pdftex.def)             Requested size: 357.55032pt x 155.08836pt.
+ [13 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/galle
+rFischer_example1.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myL
+atex/figures/gallerFischer_unionByRank.pdf>]
+<./figures/gallerFischer_pathCompression.pdf, id=680, 556.8275pt x 294.4501pt>
+File: ./figures/gallerFischer_pathCompression.pdf Graphic file (type pdf)
+
+<use ./figures/gallerFischer_pathCompression.pdf>
+Package pdftex.def Info: ./figures/gallerFischer_pathCompression.pdf used on in
+put line 724.
+(pdftex.def)             Requested size: 222.72705pt x 117.77794pt.
+ [14 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/galle
+rFischer_pathCompression.pdf>] <./figures/layerPartitionTrees2.pdf, id=693, 664
+.70831pt x 228.76369pt>
+File: ./figures/layerPartitionTrees2.pdf Graphic file (type pdf)
+
+<use ./figures/layerPartitionTrees2.pdf>
+Package pdftex.def Info: ./figures/layerPartitionTrees2.pdf used on input line 
+772.
+(pdftex.def)             Requested size: 332.35335pt x 114.38155pt.
+ [15 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/layer
+PartitionTrees2.pdf>]
+<./figures/LTrees_countVariable_small.pdf, id=731, 721.95956pt x 247.17583pt>
+File: ./figures/LTrees_countVariable_small.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_countVariable_small.pdf>
+Package pdftex.def Info: ./figures/LTrees_countVariable_small.pdf used on input
+ line 805.
+(pdftex.def)             Requested size: 310.43655pt x 106.28352pt.
+
+<./figures/LTrees_case1.pdf, id=732, 658.3251pt x 368.38297pt>
+File: ./figures/LTrees_case1.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_case1.pdf>
+Package pdftex.def Info: ./figures/LTrees_case1.pdf used on input line 846.
+(pdftex.def)             Requested size: 329.16174pt x 184.19102pt.
+
+<./figures/LTrees_case3.pdf, id=733, 776.5104pt x 379.69714pt>
+File: ./figures/LTrees_case3.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_case3.pdf>
+Package pdftex.def Info: ./figures/LTrees_case3.pdf used on input line 857.
+(pdftex.def)             Requested size: 388.25424pt x 189.8481pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--890
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--890
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--890
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 869--890
+
+ []
+
+[16 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LTrees
+_countVariable_small.pdf>] [17 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorTh
+esis/myLatex/figures/LTrees_case1.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_Ba
+chelorThesis/myLatex/figures/LTrees_case3.pdf>]
+<./figures/LTrees_cleanup.pdf, id=905, 394.55548pt x 165.95471pt>
+File: ./figures/LTrees_cleanup.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_cleanup.pdf>
+Package pdftex.def Info: ./figures/LTrees_cleanup.pdf used on input line 895.
+(pdftex.def)             Requested size: 394.5545pt x 165.9543pt.
+
+Overfull \hbox (4.5545pt too wide) in paragraph at lines 895--898
+ [][] 
+ []
+
+[18 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LTrees
+_cleanup.pdf>]
+<./figures/LTrees_analysis.pdf, id=918, 378.5407pt x 68.13254pt>
+File: ./figures/LTrees_analysis.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_analysis.pdf>
+Package pdftex.def Info: ./figures/LTrees_analysis.pdf used on input line 914.
+(pdftex.def)             Requested size: 340.68347pt x 61.3187pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--935
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--935
+
+ []
+
+[19 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LTrees
+_analysis.pdf>]
+<./figures/LTrees_transformation.pdf, id=932, 363.21436pt x 192.2728pt>
+File: ./figures/LTrees_transformation.pdf Graphic file (type pdf)
+
+<use ./figures/LTrees_transformation.pdf>
+Package pdftex.def Info: ./figures/LTrees_transformation.pdf used on input line
+ 962.
+(pdftex.def)             Requested size: 363.21346pt x 192.27232pt.
+ [20 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/LTree
+s_transformation.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 983--996
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--996
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 983--996
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 1031--1037
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
+
+ []
+
+<./figures/java_implementation1.pdf, id=993, 433.06038pt x 583.29099pt>
+File: ./figures/java_implementation1.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation1.pdf>
+Package pdftex.def Info: ./figures/java_implementation1.pdf used on input line 
+1054.
+(pdftex.def)             Requested size: 411.40503pt x 554.12329pt.
+
+Overfull \hbox (21.40503pt too wide) in paragraph at lines 1054--1055
+ [][] 
+ []
+
+
+LaTeX Warning: Float too large for page by 3.4566pt on input line 1057.
+
+[22] [23 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/j
+ava_implementation1.pdf>]
+<./figures/java_implementation2.pdf, id=1124, 373.3633pt x 428.99646pt>
+File: ./figures/java_implementation2.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation2.pdf>
+Package pdftex.def Info: ./figures/java_implementation2.pdf used on input line 
+1070.
+(pdftex.def)             Requested size: 354.6931pt x 407.54433pt.
+ [24 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/java_
+implementation2.pdf>]
+<./figures/java_implementation3.pdf, id=1198, 373.3633pt x 420.52652pt>
+File: ./figures/java_implementation3.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation3.pdf>
+Package pdftex.def Info: ./figures/java_implementation3.pdf used on input line 
+1084.
+(pdftex.def)             Requested size: 354.6931pt x 399.49792pt.
+ [25 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/java_
+implementation3.pdf>]
+<./figures/java_implementation4.pdf, id=1264, 374.94698pt x 322.58405pt>
+File: ./figures/java_implementation4.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation4.pdf>
+Package pdftex.def Info: ./figures/java_implementation4.pdf used on input line 
+1099.
+(pdftex.def)             Requested size: 356.19759pt x 306.45308pt.
+
+<./figures/java_implementation5.pdf, id=1265, 403.57729pt x 525.42545pt>
+File: ./figures/java_implementation5.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation5.pdf>
+Package pdftex.def Info: ./figures/java_implementation5.pdf used on input line 
+1117.
+(pdftex.def)             Requested size: 383.39624pt x 499.15134pt.
+
+<./figures/java_implementation6.pdf, id=1266, 410.15462pt x 601.30899pt>
+File: ./figures/java_implementation6.pdf Graphic file (type pdf)
+
+<use ./figures/java_implementation6.pdf>
+Package pdftex.def Info: ./figures/java_implementation6.pdf used on input line 
+1127.
+(pdftex.def)             Requested size: 389.64467pt x 571.24031pt.
+
+
+LaTeX Warning: Float too large for page by 20.57362pt on input line 1130.
+
+[26 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/java_i
+mplementation4.pdf>] [27 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/m
+yLatex/figures/java_implementation5.pdf>] [28 <D:/Studium/BachelorThesisStuff/L
+aTeX_BachelorThesis/myLatex/figures/java_implementation6.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1144--1149
+
+ []
+
+<./figures/TStamp_layerPartition.pdf, id=1558, 254.81541pt x 105.9488pt>
+File: ./figures/TStamp_layerPartition.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_layerPartition.pdf>
+Package pdftex.def Info: ./figures/TStamp_layerPartition.pdf used on input line
+ 1174.
+(pdftex.def)             Requested size: 242.07326pt x 100.65077pt.
+ [29 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/TStam
+p_layerPartition.pdf>]
+<./figures/TStamp_birthArray.pdf, id=1596, 230.27066pt x 68.86922pt>
+File: ./figures/TStamp_birthArray.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_birthArray.pdf>
+Package pdftex.def Info: ./figures/TStamp_birthArray.pdf used on input line 118
+8.
+(pdftex.def)             Requested size: 230.27008pt x 68.86905pt.
+
+<./figures/TStamp_lastRequest.pdf, id=1597, 233.1188pt x 25.5992pt>
+File: ./figures/TStamp_lastRequest.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_lastRequest.pdf>
+Package pdftex.def Info: ./figures/TStamp_lastRequest.pdf used on input line 12
+03.
+(pdftex.def)             Requested size: 233.11823pt x 25.59912pt.
+
+<./figures/TStamp_layerPartition_t4.pdf, id=1598, 315.9266pt x 105.9488pt>
+File: ./figures/TStamp_layerPartition_t4.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_layerPartition_t4.pdf>
+Package pdftex.def Info: ./figures/TStamp_layerPartition_t4.pdf used on input l
+ine 1215.
+(pdftex.def)             Requested size: 315.92581pt x 105.94853pt.
+
+<./figures/TStamp_birthArray_t4.pdf, id=1599, 366.35733pt x 125.452pt>
+File: ./figures/TStamp_birthArray_t4.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_birthArray_t4.pdf>
+Package pdftex.def Info: ./figures/TStamp_birthArray_t4.pdf used on input line 
+1225.
+(pdftex.def)             Requested size: 366.35643pt x 125.45168pt.
+
+<./figures/TStamp_request_t5.pdf, id=1600, 380.54672pt x 209.839pt>
+File: ./figures/TStamp_request_t5.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_request_t5.pdf>
+Package pdftex.def Info: ./figures/TStamp_request_t5.pdf used on input line 123
+9.
+(pdftex.def)             Requested size: 380.54579pt x 209.83849pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1244
+
+ []
+
+[30 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/TStamp
+_birthArray.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/f
+igures/TStamp_lastRequest.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorTh
+esis/myLatex/figures/TStamp_layerPartition_t4.pdf>] [31 <D:/Studium/BachelorThe
+sisStuff/LaTeX_BachelorThesis/myLatex/figures/TStamp_birthArray_t4.pdf> <D:/Stu
+dium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/TStamp_request_t5
+.pdf>] <./figures/TStamp_request_t6.pdf, id=1763, 380.54672pt x 197.93056pt>
+File: ./figures/TStamp_request_t6.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_request_t6.pdf>
+Package pdftex.def Info: ./figures/TStamp_request_t6.pdf used on input line 125
+0.
+(pdftex.def)             Requested size: 361.51733pt x 188.03296pt.
+
+<./figures/TStamp_request_t7.pdf, id=1764, 380.54672pt x 196.32455pt>
+File: ./figures/TStamp_request_t7.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_request_t7.pdf>
+Package pdftex.def Info: ./figures/TStamp_request_t7.pdf used on input line 125
+9.
+(pdftex.def)             Requested size: 361.51733pt x 186.50726pt.
+
+<./figures/TStamp_prefixSum.pdf, id=1765, 380.54672pt x 181.8828pt>
+File: ./figures/TStamp_prefixSum.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_prefixSum.pdf>
+Package pdftex.def Info: ./figures/TStamp_prefixSum.pdf used on input line 1271
+.
+(pdftex.def)             Requested size: 380.54579pt x 181.88234pt.
+ [32 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/TStam
+p_request_t6.pdf> <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/
+figures/TStamp_request_t7.pdf>] [33 <D:/Studium/BachelorThesisStuff/LaTeX_Bache
+lorThesis/myLatex/figures/TStamp_prefixSum.pdf>]
+Overfull \hbox (4.51474pt too wide) in paragraph at lines 1307--1309
+\OT1/cmr/bx/n/12 Example 2: \OT1/cmr/m/n/12 Sup-pose the cache size is $\OML/cm
+m/m/it/12 k \OT1/cmr/m/n/12 = 3$, the page-set $\OML/cmm/m/it/12 M \OT1/cmr/m/n
+/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 2\O
+ML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/
+m/it/12 ; \OT1/cmr/m/n/12 5\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 6\OMS/cmsy/m/n/12
+ g$
+ []
+
+<./figures/TStamp_prefixSum2.pdf, id=1957, 380.54672pt x 181.8828pt>
+File: ./figures/TStamp_prefixSum2.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_prefixSum2.pdf>
+Package pdftex.def Info: ./figures/TStamp_prefixSum2.pdf used on input line 131
+3.
+(pdftex.def)             Requested size: 380.54579pt x 181.88234pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1327--1330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1333--1339
+
+ []
+
+[34 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/TStamp
+_prefixSum2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1376--1388
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 1398--1404
+
+ []
+
+<./figures/TStamp_deleteLayer.pdf, id=2018, 368.17549pt x 538.59825pt>
+File: ./figures/TStamp_deleteLayer.pdf Graphic file (type pdf)
+
+<use ./figures/TStamp_deleteLayer.pdf>
+Package pdftex.def Info: ./figures/TStamp_deleteLayer.pdf used on input line 14
+08.
+(pdftex.def)             Requested size: 368.17459pt x 538.59694pt.
+
+
+LaTeX Warning: Float too large for page by 2.43025pt on input line 1412.
+
+[36] [37 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/T
+Stamp_deleteLayer.pdf>] [38] [39]
+<./experiments/samsung_OLTP.pdf, id=2120, 455.36359pt x 268.05252pt>
+File: ./experiments/samsung_OLTP.pdf Graphic file (type pdf)
+
+<use ./experiments/samsung_OLTP.pdf>
+Package pdftex.def Info: ./experiments/samsung_OLTP.pdf used on input line 1561
+.
+(pdftex.def)             Requested size: 364.29135pt x 214.4423pt.
+
+<./experiments/samsung_S1.pdf, id=2121, 455.36359pt x 270.59955pt>
+File: ./experiments/samsung_S1.pdf Graphic file (type pdf)
+
+<use ./experiments/samsung_S1.pdf>
+Package pdftex.def Info: ./experiments/samsung_S1.pdf used on input line 1596.
+(pdftex.def)             Requested size: 364.29135pt x 216.47992pt.
+
+<./experiments/lenovo_S1.pdf, id=2122, 456.97067pt x 272.20567pt>
+File: ./experiments/lenovo_S1.pdf Graphic file (type pdf)
+
+<use ./experiments/lenovo_S1.pdf>
+Package pdftex.def Info: ./experiments/lenovo_S1.pdf used on input line 1635.
+(pdftex.def)             Requested size: 365.57703pt x 217.76483pt.
+
+<./experiments/samsung_P6.pdf, id=2123, 458.51173pt x 275.29848pt>
+File: ./experiments/samsung_P6.pdf Graphic file (type pdf)
+
+<use ./experiments/samsung_P6.pdf>
+Package pdftex.def Info: ./experiments/samsung_P6.pdf used on input line 1674.
+(pdftex.def)             Requested size: 366.80988pt x 220.23906pt.
+
+<./experiments/lenovo_P6.pdf, id=2124, 459.93134pt x 276.90488pt>
+File: ./experiments/lenovo_P6.pdf Graphic file (type pdf)
+
+<use ./experiments/lenovo_P6.pdf>
+Package pdftex.def Info: ./experiments/lenovo_P6.pdf used on input line 1712.
+(pdftex.def)             Requested size: 367.94556pt x 221.52419pt.
+
+<./experiments/samsung_P1.pdf, id=2125, 456.27412pt x 270.48055pt>
+File: ./experiments/samsung_P1.pdf Graphic file (type pdf)
+
+<use ./experiments/samsung_P1.pdf>
+Package pdftex.def Info: ./experiments/samsung_P1.pdf used on input line 1749.
+(pdftex.def)             Requested size: 365.01978pt x 216.38472pt.
+
+<./experiments/lenovo_P1.pdf, id=2126, 455.2629pt x 267.26834pt>
+File: ./experiments/lenovo_P1.pdf Graphic file (type pdf)
+
+<use ./experiments/lenovo_P1.pdf>
+Package pdftex.def Info: ./experiments/lenovo_P1.pdf used on input line 1788.
+(pdftex.def)             Requested size: 364.2108pt x 213.81496pt.
+
+<./experiments/samsung_SPC1.pdf, id=2127, 456.08176pt x 270.59927pt>
+File: ./experiments/samsung_SPC1.pdf Graphic file (type pdf)
+
+<use ./experiments/samsung_SPC1.pdf>
+Package pdftex.def Info: ./experiments/samsung_SPC1.pdf used on input line 1826
+.
+(pdftex.def)             Requested size: 364.86589pt x 216.4797pt.
+
+<./experiments/lenovo_SPC1.pdf, id=2128, 456.1668pt x 270.59967pt>
+File: ./experiments/lenovo_SPC1.pdf Graphic file (type pdf)
+
+<use ./experiments/lenovo_SPC1.pdf>
+Package pdftex.def Info: ./experiments/lenovo_SPC1.pdf used on input line 1865.
+
+(pdftex.def)             Requested size: 364.93393pt x 216.48001pt.
+
+<./experiments/cacheMisses_P1.pdf, id=2129, 376.60052pt x 236.38577pt>
+File: ./experiments/cacheMisses_P1.pdf Graphic file (type pdf)
+
+<use ./experiments/cacheMisses_P1.pdf>
+Package pdftex.def Info: ./experiments/cacheMisses_P1.pdf used on input line 19
+03.
+(pdftex.def)             Requested size: 301.28082pt x 189.10886pt.
+ [40] [41 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/experime
+nts/samsung_OLTP.pdf>] [42 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis
+/myLatex/experiments/samsung_S1.pdf>]
+[43 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/experiments/le
+novo_S1.pdf>] [44 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/
+experiments/samsung_P6.pdf>] [45 <D:/Studium/BachelorThesisStuff/LaTeX_Bachelor
+Thesis/myLatex/experiments/lenovo_P6.pdf>] [46 <D:/Studium/BachelorThesisStuff/
+LaTeX_BachelorThesis/myLatex/experiments/samsung_P1.pdf>] [47 <D:/Studium/Bache
+lorThesisStuff/LaTeX_BachelorThesis/myLatex/experiments/lenovo_P1.pdf>]
+[48 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/experiments/sa
+msung_SPC1.pdf>] [49 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLat
+ex/experiments/lenovo_SPC1.pdf>] [50 <D:/Studium/BachelorThesisStuff/LaTeX_Bach
+elorThesis/myLatex/experiments/cacheMisses_P1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 1938--1946
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--1971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--1971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--1971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1947--1971
+
+ []
+
+[51] [52] [53]
+<./figures/layerPartition_Interpretation1a.pdf, id=2264, 302.4708pt x 148.45204
+pt>
+File: ./figures/layerPartition_Interpretation1a.pdf Graphic file (type pdf)
+ <use ./figures/layerPartition_Interpretation1a.pdf>
+Package pdftex.def Info: ./figures/layerPartition_Interpretation1a.pdf used on 
+input line 2103.
+(pdftex.def)             Requested size: 332.71889pt x 163.29774pt.
+ [54
+
+ <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/layerPart
+ition_Interpretation1a.pdf>]
+<./figures/layerPartition_Interpretation1b.pdf, id=2347, 321.09085pt x 166.3149
+3pt>
+File: ./figures/layerPartition_Interpretation1b.pdf Graphic file (type pdf)
+ <use ./figures/layerPartition_Interpretation1b.pdf>
+Package pdftex.def Info: ./figures/layerPartition_Interpretation1b.pdf used on 
+input line 2117.
+(pdftex.def)             Requested size: 353.20102pt x 182.94696pt.
+ [55 <D:/Studium/BachelorThesisStuff/LaTeX_BachelorThesis/myLatex/figures/layer
+Partition_Interpretation1b.pdf>]
+Underfull \hbox (badness 7326) in paragraph at lines 2149--2152
+[]\OT1/cmr/m/n/12 Susanne Al-bers. Lec-ture notes on Com-pet-i-tive On-line Al-
+go-
+ []
+
+[56] [57]
+Underfull \hbox (badness 10000) in paragraph at lines 2236--2237
+[]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 2313062 /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2242--2243
+[]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 9632288 /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2245--2246
+[]$\OT1/cmtt/m/n/12 http : / / stackoverflow . com / questions / 8297993 /$
+ []
+
+[58]
+(D:\Studium\BachelorThesisStuff\LaTeX_BachelorThesis\myLatex\edeza_thesis.aux) 
+) 
+Here is how much of TeX's memory you used:
+ 2469 strings out of 494045
+ 38516 string characters out of 3148396
+ 131186 words of memory out of 3000000
+ 5697 multiletter control sequences out of 15000+200000
+ 11329 words of font info for 41 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 36i,13n,20p,693b,268s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on edeza_thesis.pdf (64 pages, 1909077 bytes).
+PDF statistics:
+ 2484 PDF objects out of 2487 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+
